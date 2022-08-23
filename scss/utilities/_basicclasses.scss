@@ -1,0 +1,15 @@
+//CLASES BASE
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: $box__shadow;
+    border-radius: 5px;
+    background-color: map-get($map: $paleta, $key: "secondary__color");
+    padding: 3%;
+    margin: 3% 0;
+    width: 100%;
+    background: $card__gradient;
+}

@@ -1,0 +1,22 @@
+//IMPORTS
+
+//UTILITIES
+@import "utilities/vars";
+@import "utilities/display";
+@import "utilities/fonts";
+@import "utilities/basicclasses";
+@import "utilities/keyframes";
+
+//COMMON SECTIONS
+@import "common__section/navBar";
+@import "common__section/footer";
+@import "common__section/notfound";
+
+//PAGES
+@import "pages/index";
+@import "pages/contact";
+@import "pages/servicios";
+@import "pages/artists";
+@import "pages/recursos";
+
+

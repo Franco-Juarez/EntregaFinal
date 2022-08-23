@@ -1,0 +1,45 @@
+//NAVEGADOR
+nav {
+    background-color: map-get($map: $paleta, $key: "bg__color");
+    .flex__logo {
+        .navbar-brand {
+            margin-right: 0;
+            max-width: 62px;
+            min-width: 45px;
+            margin-right: 5%;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .bold__h3 {
+            @include heading ($md__text, 1.2, 500, left, 0, 0);
+            font-weight: 700;
+            margin-left: 0;
+            @include medias (mobile__lg--max) {
+                display: none;
+            }
+        }
+        .picotres__h3 {
+            @include heading ($md__text, 1.2, 500, left, 0, 0);
+            @include medias (mobile__lg--max) {
+                display: none;
+            }
+        }
+    }
+    .navbar-collapse {
+        .nav-link {
+            color: map-get($map: $paleta, $key: "white");
+            &:focus {
+                color: map-get($map: $paleta, $key: "main__color");
+            }
+            &:hover {
+                color: map-get($map: $paleta, $key: "main__color");
+            }
+        }
+    }
+    .navbar-toggler-icon {
+        color: map-get($map: $paleta, $key: "black");
+    }
+}
+

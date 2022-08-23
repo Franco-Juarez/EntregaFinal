@@ -1,0 +1,49 @@
+Desafío SASS II + CEO:
+
+-- En la página de index mantuve el título original y sumé la siguiente descripción:
+
+"Estudio de producción musical en Bahía Blanca orientado a la grabación, mezcla y masterización"
+
+Al mismo tiempo, sumé unas keywords y revisé que estuvieran en el body:
+“música, artistas, estudio, pico tres”
+
+
+
+--En la página de servicios cambié el título para evitar la repetición y le sumé una nueva descripción:
+TTÍTULO: “Servicios de producción, grabación, mezcla y masterización en Pico Tres Estudio.”
+DESCRIPCIÓN: “Accede al mejor servicio de producción musical, mezcla y masterización presencial y online en Bahía Blanca.”
+
+Por otro lado, le agregé las siguientes keywords: 
+“producción musical, grabación, mezcla, masterización, instrumentos musicales, industria musical”
+
+
+
+--En la página de los artistas, realicé las mismas operaciones que en la página de servicios. La descripción y el título fueron los siguientes:
+TÍTULO: “Artistas de Pico Tres Estudio”.
+DESCRIPCIÓN: “Te invitamos a descubrir nuevos artistas y ofrecemos un catálogo especial para cada gusto musical.”
+
+Por su parte, las keywords seleccionadas fueron las siguientes: 
+“artistas, música en vivo, lanzamientos, R&B, pop, góspel, lo-fi”.
+
+
+
+--En la página de contacto, agregué la siguiente descripción y título:
+TÍTULO: “Contacto de Pico Tres Estudio.”
+DESCRIPCIÓN: “Pico Tres Estudio te ofrece diferentes canales de diálogo para que puedas contactarte con nosotros, agendar una sesión, 
+asesorarte o sacarte cualquier duda.”
+
+Por su parte, las keywords seleccionadas fueron las siguientes: 
+"preguntas frecuentes, producción musical, artistas, música, grabación, composición, edición, postproducción"
+
+
+
+--Finalmente, en la página de recursos dispuse del siguiente título y descripción:
+TÍTULO: “Sample packs, midi packs y tutoriales de Pico Tres Estudio”.
+DESCRIPCIÓN: “Encontrá los packs más utilizados en Pico Tres Estudio y dale ese toque profesional a tus producciones”.
+Por su parte, las keywords que decidí agregar fueron las siguientes: 
+“packs, samples, midi, templates, tutorial, acapellas, sonidos, patterns”
+
+
+En todas las páginas antes descriptas, me aseguré de mantener una jerarquía entre los encabezados, dispuse un único H1 por página 
+y revisé las etiquetas semánticas para organizar el contenido. Finalmente intenté describir el texto alternativo de 
+las imágenes de la manera más clara posible. 

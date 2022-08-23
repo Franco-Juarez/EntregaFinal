@@ -1,0 +1,21 @@
+//KEYFRAMES 
+
+@keyframes opacity__efx {
+    from {opacity: 0;} 
+    to {opacity:  1;}   
+}
+
+@keyframes movement__efx {
+    from {transform: translateY(0);} 
+    to {transform: translateY(15px);}   
+}
+
+@keyframes moving__box {
+    from {transform: translateX(-100%);}
+    to {transform: translatex(0);}
+}
+
+@keyframes moving__box--b {
+    from {transform: translateX(100%);}
+    to {transform: translateX(0);}
+}

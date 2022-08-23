@@ -1,0 +1,267 @@
+//SERVICIOS
+
+.main__servicios {
+    @include d-flex (flex, column, center, center);
+    height: 100%;
+    background-color: map-get($map: $paleta, $key: "bg__color");
+    .hero__image--servicios {
+        background-image: $hero__image--gradient, url(../images/servicios/hero_mixer_img.webp);
+        background-size: cover;
+        @include d-flex (flex, column, center, center);
+        height: 100vh;
+        width: 100%;
+        .hero__text {
+            @include d-flex (flex, column, center, center);
+            text-align: center;
+            animation-name: opacity__efx;
+            animation-duration: 2s;
+            width: 100%;
+            h1 {
+                @include heading ($md__text, 1, $bold__text, left, 2%, 0);
+                border-bottom: 2px solid map-get($map: $paleta, $key: "white");
+                    @include medias (tablet) {
+                        font-size: 3.5em;
+                    }
+            }
+            p {
+                font-size: 1.4em;
+            }
+            img {
+                width: 10%;
+                animation-name: movement__efx;
+                animation-duration: 2s;
+                animation-iteration-count: infinite;
+                animation-delay: 1s;
+                @include medias (tablet) {
+                    width: 5%;
+                }
+            }
+        }
+    }
+    .infografia__style {
+        background-color: map-get($map: $paleta, $key: "black");
+        article {
+            header {
+                margin: 2%, 0;
+                h2 {
+                    background-color: map-get($map: $paleta, $key: "main__color");
+                    width: 100%;
+                    color: map-get($map: $paleta, $key: "black");
+                    @include heading ($sm__text + 0.7em, 1, $bold__text, center, 4% 1%, 1% 0);
+                    @include medias (tablet) {
+                        font-size: $lg__text;
+                    }
+                }
+                p {
+                    text-align: center;
+                }
+            }
+            .infografia__card--grp {
+                @include medias (mobile__lg) {
+                    @include d-flex (flex, row, flex-start, center);
+                }
+                .infografia__card--flex {
+                    @include d-flex (flex, column, center, center);
+                    margin: 0;
+                    .infografia__card {
+                        @include d-flex (flex, column, center, center);
+                        padding: 2%;
+                        width: 100%;
+                        header {
+                            width: 100%;
+                            @include d-flex (flex, row, flex-start, center);
+                            img {
+                                width: 12%;
+                                padding: 2%;
+                                display: inline;
+                            }
+                            h3 {
+                                text-align: center;
+                                padding: 2%;
+                                margin: 1%;
+                                font-size: 1.2em;
+                            }
+                        }
+                            p {
+                                padding: 3%;
+                                @include medias (tablet) {
+                                    text-align: left;
+                                }
+                            }
+                        }
+                    }
+                .infografia__img {
+                    display: none;
+                    @include medias (tablet) {
+                        @include d-flex (flex, column, center, center);
+                        width: 33%;
+                    }
+                    img {
+                        width: 80%;
+                        box-shadow: $box__shadow;
+                    }
+                }
+                .infografia__par {
+                    @include medias (mobile__lg) {
+                        width: 50%;
+                    }
+                    @include medias (tablet) {
+                        width: 33%;
+                    }
+                }
+            }
+        }
+        img {
+            width: 100%;
+        }
+    }
+    .gear__section {
+        width: 100%;
+        article {
+            @include d-flex (flex, column, center, center);
+            h2 {
+                background-color: map-get($map: $paleta, $key: "main__color");
+                width: 100%;
+                color: map-get($map: $paleta, $key: "black");
+                @include heading ($sm__text + 0.7em, 1, $bold__text, center, 4% 1%, 1% 0);
+                @include medias (tablet) {
+                    font-size: $lg__text;
+                }
+            }
+            p {
+                text-align: center;  
+                font-size: $sm__text;
+                @include medias (mobile__lg) {
+                    font-size: $sm__text + 0.1em;
+                }
+                @include medias (tablet) {
+                    font-size: $sm__text + 0.5em;
+                }     
+            }
+            img {
+                width: 100%;
+                padding: 1.5%;
+                @include medias (mobile__lg){
+                    width: 90%;
+                }
+                @include medias (tablet){
+                    width: 75%;
+                }
+            }
+            .list__flex {
+                padding: 0 3%;
+                width: 100%;
+                @include d-flex (flex, column, center, center);
+                @include medias (tablet) {
+                    @include d-flex (flex, row, space-around, center);
+                }
+                .list__center {
+                    @include d-flex (flex, column, center, flex-start);
+                    margin: 4% 0;
+                    width: 80%;
+                    h3 {
+                        font-weight: 700;
+                        margin-bottom: 6%;
+                    }
+                    ul {
+                        padding: 0 0 0 8%;
+                        width: 100%;
+                        li {
+                            padding: 1%;
+                            width: 100%;
+                        }
+                    }
+                    a {
+                        text-decoration: none;
+                        padding: 12px 28px;
+                        color: map-get($map: $paleta, $key: "black");
+                        background-color: map-get($map: $paleta, $key: "main__color");
+                        border-radius: 20px;
+                        margin: auto;   
+                    }
+                }
+            }
+        }
+    }
+    .precios__section {
+        background-color: map-get($map: $paleta, $key: "black");
+        @include d-flex (flex, column, center, center);
+        width: 100%;
+            header {
+                margin-top: 3%;
+                width: 100%;
+                h2 {
+                    width: 100%;
+                    color: map-get($map: $paleta, $key: "white");
+                    @include heading ($sm__text + 0.8em, 1, $bold__text, center, 4% 1%, 1% 0);
+                    @include medias (mobile__lg) {
+                        font-size: $md__text;
+                    }
+                    @include medias (tablet) {
+                        font-size: $lg__text;
+                    }
+                }
+                p {
+                    text-align: center;
+                    padding: 2% 0;
+                }
+            }
+        .article__flex {
+            @include d-flex (flex, column, center, center);
+            @include medias (tablet) {
+                @include d-flex (flex, row, center, center);
+            }
+            .card {
+                width: 95%;
+                @include d-flex (flex, column, center, center);
+                margin: 4%;
+                padding: 0;
+                background: map-get($map: $paleta, $key: "main__color");
+                animation-name: opacity__efx;
+                animation-duration: 2s;
+                @include medias (tablet) {
+                width: 30%;
+                }
+                &:hover {
+                    transform: translateY(-8%);
+                    transition: 1s;
+                    box-shadow: $box__shadow--main;
+                }
+                header {
+                    width: 55%;
+                    h3 {
+                        text-align: center;
+                        font-size: 2em;
+                        font-weight: 700;
+                        color: map-get($map: $paleta, $key:"black");
+                        padding: 2%;
+                        margin: 0;
+                        border-bottom: 2px solid map-get($map: $paleta, $key: "black");
+                    }
+                    p {
+                        color: map-get($map: $paleta, $key: "black");
+                    }
+                }
+                .list-group {
+                        padding: 0;
+                        margin: 0;
+                        width: 100%;
+                    .list-group-item {
+                        text-align: center;
+                        background-color: map-get($map: $paleta, $key: "white");
+                        padding: 3% 0;
+                    }
+                }
+                .bg__btn--color {
+                    padding: 3%;
+                    width: 100%;
+                    background-color: map-get($map: $paleta, $key: "white");
+                    @include d-flex (flex, column, center, center);
+                    .btn {
+                        background-color: map-get($map: $paleta, $key: "main__color");  
+                    }
+                }
+            }
+        }
+    }
+}

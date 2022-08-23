@@ -1,0 +1,24 @@
+//VARIABLES
+
+//PALETA
+
+$paleta: (
+    "bg__color": #212529,
+    "main__color": rgba(251, 194, 79, 1), 
+    "secondary__color": rgb(60, 62, 61),
+    "extra__color": rgb(50, 52, 51),
+    "white": rgb(241, 245, 243),
+    "black": rgb(15, 15, 15),);
+
+//GRADIENTES
+
+$card__gradient: linear-gradient(216deg, rgba(50,52,51,0.8799894957983193) 0%, rgba(60,62,61,1) 48%);
+$hero__image--gradient: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+$box__shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+$box__shadow--main: 0 4px 8px 0 rgba(251, 194, 79, 1);
+$box__shadow--secondary:0 8px 16px 0 rgba(0,0,0,0.3);
+
+//BORDERS 
+
+$border: solid 3px rgba(251, 194, 79, 1);
+

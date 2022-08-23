@@ -1,0 +1,43 @@
+//FUENTES
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+$font__main: 'Ubuntu', sans-serif;
+$color__text: rgb(252, 252, 252);
+$secondary_color--text:  rgb(50, 52, 51);
+
+
+//TAMAÑO DE FUENTE
+
+$ft_text: 0.6em;
+$sm__text: 1em;
+$md__text: 2em;
+$lg__text: 3em;
+$hl__text: 4em;
+
+$bold__text: 700;
+$regular__text:400;
+$light__text: 300;
+
+//HEADING MIXIN
+
+@mixin heading ($font__size, $font__height, $font_weight, $font_align, $font__pd, $font__mg) {
+    font-size: $font__size;
+    line-height: $font__height;
+    font-weight: $font_weight;
+    text-align: $font_align;
+    padding: $font__pd;
+    margin: $font__mg;
+}
+
+//TEXT RESET
+
+body, html, main{
+    color: map-get($map: $paleta, $key: "white");
+    margin: 0;
+    padding: 0;
+    font-family: $font__main;
+}
+
+
+
