@@ -47,7 +47,7 @@
             @include heading ($sm__text + 0.5em, 1, $bold__text, left, 1% 0, 1% 0);
             @include medias (tablet) {
                 font-size: $md__text;
-            }
+                }
             }
             p {
                 font-size: $sm__text;
@@ -104,7 +104,6 @@
             }
         }
     }
-
 }
 
 
